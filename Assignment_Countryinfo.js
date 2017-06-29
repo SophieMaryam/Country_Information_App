@@ -9,7 +9,9 @@
 // Reads and parses the `countries.json` file.
 
 var fs = require('fs');
-var obj;
+//This is always needed
+var obj = " ";
+// Since you have to put the data in somewhere, you need to include an empty array
 
 fs.readFile("countries.json", 'utf8', function(err, data) {
 		//converts everything from binary and binary to words 

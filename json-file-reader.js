@@ -2,7 +2,7 @@ var fs = require('fs');
 var obj; // you have this if you have a variable = something else. This way obj has a place to store data! 
 
 
-function name(filename, callbackFunction) { // you need to have two parameters in the function 
+function country(filename, callbackFunction) { // you need to have two parameters in the function 
 	fs.readFile(filename, 'utf8', function(err, data) {
 			//it needs to work with any file so just write the parameter "any  file"
 	if (err) {
